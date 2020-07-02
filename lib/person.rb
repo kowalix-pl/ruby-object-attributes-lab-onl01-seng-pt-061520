@@ -7,11 +7,12 @@ class Person
   
   def name
     @name
+    binding.pry
   end 
   
   def job=(job)
     @job = job
-    binding.pry
+    
   end 
   
   def job
