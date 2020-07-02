@@ -8,8 +8,11 @@ def name
   @name
 end 
 
-def breeds=(breeds)
-  @breeds = breeds
+def breed=(breed)
+  @breed = breed
 end 
 
+def breed
+  @breed
+end 
 end 
